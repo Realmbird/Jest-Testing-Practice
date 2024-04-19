@@ -5,4 +5,4 @@ const calculator = (() => {
     const mult = (a,b) => a * b
     return {add, sub, div, mult}
 })()
-module.exports = calculator
+export {calculator}

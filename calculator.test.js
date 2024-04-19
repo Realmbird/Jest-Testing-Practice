@@ -1,4 +1,4 @@
-const calculator = require('./calculator.js')
+import { calculator } from "./calculator"
 
 describe("calculator", () => {
     it("calculator adds", () => {
